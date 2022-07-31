@@ -1,5 +1,5 @@
 {
-  "name": "KSA",
+  "name": "ksa",
   "version": "1.0.0",
   "description": "ksa frontend",
   "scripts": {
@@ -35,6 +35,7 @@
     "@types/react-router-dom": "^5.3.3",
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
+    "dotenv": "^16.0.1",
     "dotenv-webpack": "^7.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

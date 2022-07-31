@@ -1,0 +1,43 @@
+:root{
+    --primary-color: rgb(231, 153, 8);
+    --secondery-color: rgb(54, 44, 201);
+    --header-title-color: rgb(255, 255, 255);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: inline-block;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-container{
+    position: relative;
+    min-width: 100%;
+    height: auto;
+}
+
+.header-image{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    filter: blur(2px);
+}
+
+.header-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-logo{
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
