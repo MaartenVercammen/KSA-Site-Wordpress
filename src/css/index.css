@@ -2,6 +2,9 @@
     --primary-color: rgb(231, 153, 8);
     --secondery-color: rgb(54, 44, 201);
     --header-title-color: rgb(255, 255, 255);
+    --nav-background-color : rgba(255, 255, 255);
+    --nav-item-color: rgb(0, 0, 0);
+    --nav-item-color-hover: rgb(231,153,8);
 }
 
 *{
@@ -19,6 +22,7 @@ body{
     position: relative;
     min-width: 100%;
     height: auto;
+    margin: -10px;
 }
 
 .header-image{
@@ -40,4 +44,42 @@ body{
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10%;
+    background-color: #24252a;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-list-item{
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav-list-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list-item a:hover{
+    color: var(--primary-color);
+}
+
+.nav-logo{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.nav-logo:hover{
+    color: var(--primary-color)
 }

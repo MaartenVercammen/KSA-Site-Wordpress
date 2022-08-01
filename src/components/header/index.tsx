@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from './nav';
+import Navbar from './nav/nav';
 import HeaderImage from './header-image';
 
 const Header: React.FC = ()=>{
